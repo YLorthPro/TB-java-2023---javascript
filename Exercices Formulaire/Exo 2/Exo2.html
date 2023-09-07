@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+</head>
+<body>
+      <form name="formulaire">
+        Inserez votre nom:
+        <input type="text" id="nom"/>
+        Prénom:
+        <input type="text" id="prenom"/>
+        <br>
+        Code postal:
+        <input type="number" id="codePostal"/>
+        
+      </form>
+      <button type="button" id="VerifCP" onclick="codePostal();">Envoi</button>
+      <button type="button" name="Submit" value="submit" id="submit" onclick="remplissage();">Auto-Completer</button>
+      <button type="reset" id="reset" onclick="reset();">Remise à zéro</button>
+    <script src="Exo2.js"></script>
+</body>
+</html>
